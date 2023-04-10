@@ -25,8 +25,8 @@ const Home = () => {
                             dimension='100%'
                         />
                     ),
-                    headerTitle: 'Home'
-
+                    headerTitle: () => (<Text style={{fontSize: 25, fontFamily: 'DMBold' }}>JobSearchX</Text>),
+                    headerTitleAlign: 'center',
                 }}
             />
 
